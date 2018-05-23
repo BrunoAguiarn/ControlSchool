@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.brunoaguiar.geradoreleitordeqr">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icone_1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TelaInicial"/>
+        <activity android:name=".controller.leitorActivity" />
+        <activity android:name=".LoginActivity" android:theme="@style/activity_login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CadastroAlunoActivity" />
+        <activity android:name=".GeradorActivity" />
+        <activity android:name=".ConsultaAlunoActivity" />
+        <activity android:name=".ChamadaActivity" />
+        <activity android:name=".PerfilActivity"></activity>
+    </application>
+
+</manifest>

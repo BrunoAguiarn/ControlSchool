@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/legendaCodigo"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:text="Codigo: "/>
+
+            <TextView
+                android:id="@+id/textoCodigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/legendaMatricula"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="Matricula: "/>
+
+        <TextView
+            android:id="@+id/textoMatricula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/legendaNome"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="Nome: "/>
+
+        <TextView
+            android:id="@+id/textoNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/legendaIdade"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Idade: "/>
+
+    <TextView
+        android:id="@+id/textoIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"/>
+</LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/legendaSexo"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Sexo: "/>
+
+    <TextView
+        android:id="@+id/textoSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"/>
+</LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/legendaTurma"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Turma: "/>
+
+    <TextView
+        android:id="@+id/textoTurma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"/>
+</LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/legendaTelefone"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Telefone: "/>
+
+    <TextView
+        android:id="@+id/textoTelefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"/>
+</LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/legendaPai"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="Pai: "/>
+
+    <TextView
+        android:id="@+id/textoPai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"/>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/legendaMae"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="Mae: "/>
+
+        <TextView
+            android:id="@+id/textoMae"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="30dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@android:color/black"
+            android:paddingBottom="30dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

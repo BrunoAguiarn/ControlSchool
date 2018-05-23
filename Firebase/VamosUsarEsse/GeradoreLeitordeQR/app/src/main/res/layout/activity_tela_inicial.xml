@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.brunoaguiar.geradoreleitordeqr.TelaInicial">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/firebase_icon" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:layout_width="127dp"
+            android:layout_height="80dp"
+            android:text="Gerador"
+            android:onClick="gerador"/>
+
+        <Button
+            android:id="@+id/ler"
+            android:layout_marginLeft="50dp"
+            android:layout_width="127dp"
+            android:layout_height="80dp"
+            android:text="Leitor"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/listaChamada"
+            android:layout_width="127dp"
+            android:layout_height="80dp"
+            android:onClick="abrirChamada"
+            android:text="Lista Chamada" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+
+        <Button
+            android:id="@+id/cadastroAluno"
+            android:layout_width="127dp"
+            android:layout_height="80dp"
+            android:onClick="cadastroAluno"
+            android:text="Cadastro Aluno"
+            android:layout_gravity="center_vertical"/>
+        <Button
+            android:id="@+id/consulta"
+            android:layout_marginLeft="50dp"
+            android:layout_width="127dp"
+            android:layout_height="80dp"
+            android:text="Lista Alunos"
+            android:onClick="consultaAlunos"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

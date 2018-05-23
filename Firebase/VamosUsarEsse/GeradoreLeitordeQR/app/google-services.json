@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "442905349855",
+    "firebase_url": "https://controlschoolcedup.firebaseio.com",
+    "project_id": "controlschoolcedup",
+    "storage_bucket": "controlschoolcedup.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442905349855:android:54d0b44c7c3124ca",
+        "android_client_info": {
+          "package_name": "br.com.brunoaguiar.geradoreleitordeqr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442905349855-lcraq8e02ja4gd2tc0dlbqt1b1aojgq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.brunoaguiar.geradoreleitordeqr",
+            "certificate_hash": "6467fad113f0f3c23a06193cf5cb6c248cfe6a7d"
+          }
+        },
+        {
+          "client_id": "442905349855-r5mmalok9jqkvn4evgl65ts4kdeilumc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPsRsKKHGc_3b_nUAPOjeSkKpZOe1cLGE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442905349855-r5mmalok9jqkvn4evgl65ts4kdeilumc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Control School</string>
+    <string name="gerador">Gerar</string>
+    <string name="leitor">Ler</string>
+    <string name="text_leitor">Leitor de QR code</string>
+    <string name="text_gerador">Gerador de QR Code</string>
+    <string name="titulo">Gerador e Leitor de QR code</string>
+    <string name="campoDeCodigo">Digite o texto</string>
+    <string name="textoLeitor">Clique no Botão para Ler o Código</string>
+    <string name="botao_scan">Scan</string>
+    <string name="textoDoCodigo"></string>
+    <string name="trocar">Trocar</string>
+    <string name="mensagemLoginSucesso">Login realizado com sucesso!</string>
+    <string name="mensagemLoginErro">Usuario ou senha invalido!</string>
+    <string name="teste">Teste</string>
+    <string name="usuario"></string>
+
+
+    <string name="turma"></string>
+    <string name="codigo"></string>
+    <string name="nome"></string>
+    <string name="matricula"></string>
+    <string name="user"></string>
+    <string name="campo_obrigatorio">Campo Obrigatorio</string>
+
+
+    <array name="codigo">
+        <item>Bruno</item>
+        <item>2018</item>
+        <item>310</item>
+        <item>123456</item>
+    </array>
+</resources>
